@@ -1,36 +1,6 @@
-# Yoga Life Rect E-commerce App
+# Yoga Life React E-commerce App
 
 # Step 1: Create React App
-      1. Open VS Code and open terminal
-      2. cd Desktop
-      3. npx create-react-app react-shopping-cart
-      4. Remove unused files
-      5. Convert App.js Class Component
-      6. Add header, main and footer
-      7. Update index.css to add grid
-   4. Project Development Workflow
-      1. Create Google Spreadsheet
-      2. Add columns Feature, Description, State, and Duration
-      3. Enter Products Component, Show list of products, Open, 2
-      4. Add Time ? Hours, Rate 30 USD/Hours, Cost ? USD
-      5. Add All Features
-      6. Create Github account
-      7. Create new repository
-      8. Add it as remote repository in VS Code
-      9. Commit changes
-      10. Push changes on github
-      11. Start => create new feature Feature 1 in google spreadsheet
-      12. Create a new branch feature-1 for test the workflow
-      13. Add "// branch feature 1" in App.js Line 1
-      14. Commit with message "feature 1"
-      15. Click publish changes
-      16. Open repository page on github
-      17. Create pull request
-      18. Merge pull request
-      19. In VS Code switch to master and Sync changes
-      20. End => Loop from step 11 for next feature
-
-2. React
 
    1. Products Component
       1. Create data.json {products:[{_id, title, ...}]
@@ -122,8 +92,8 @@
       19. Commit and Publish changes
       20. Pull request, merge, change to master
       21. Task Management Spreadsheet set it done
-
-3. Node.JS
+ 
+# Step 2: Node.JS
 
    1. Create Products Backend
       1. Install nodemon globally
@@ -139,7 +109,7 @@
       11. route.get("/api/products")
       12. route.delete("/api/products/:id")
 
-4. Redux
+# Step 3: Redux
 
    1. Add Redux
       1. what is redux (diagram)
@@ -222,7 +192,7 @@
       20. check result
       21. update task and branch
 
-5. Advanced Topics
+# Step 4: Advanced Topics
 
    1. Create Order
       1. Backend
@@ -287,7 +257,8 @@
       32. index.css
       33. style orders
 
-6. Deploy Website
+# Step 5: Deploy Website
+
    1. Create MongoDB Cloud Database
    2. Login to https://www.mongodb.com/cloud
    3. Add database user
